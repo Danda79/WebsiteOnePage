@@ -1,3 +1,10 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 /* SEZIONE HEADER */
 .head-banner {
     background-color: #898989;
@@ -12,15 +19,23 @@
 }
 
 .head-title {
+    font-weight: 700;
     font-size: 5rem;
 }
 
 .head-subtitle {
     font-size: 2rem;
+    font-weight: 300;
 }
 /* FINE SEZIONE HEADER */
 
 /* SEZIONE CHI SONO */
+.first-title-menu{
+    color: #da000b;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
 .linea {
     width: 40px;
     height: 5px;
@@ -29,10 +44,10 @@
 }
 
 .label {
-    color: black;
-    font-size: 16px;
+    color: rgb(69, 69, 69);
+    font-size: 18px;
     margin-top: 15px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .company_logo {
@@ -44,9 +59,9 @@
 }
 
 .company {
-    color: rgb(52, 52, 52);
+    color: rgb(94, 94, 94);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 0.2rem;
 }
 
@@ -60,9 +75,16 @@
 .jobs {
     color: white;
 }
+
 /* FINE SEZIONE CHI SONO */
 
 /* SEZIONE PROGETTI */
+.title-menu{
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
 .card-blog .card-body {
     position: relative;
 }
