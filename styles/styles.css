@@ -12,6 +12,10 @@ body {
     scroll-behavior: smooth;
 }
 
+/* li > a {
+    scroll-behavior:smooth;
+} */
+
 /* FINE GENERALE */
 
 /* NAVBAR */
@@ -256,6 +260,9 @@ a {
 /* FINE SEZIONE CONTATTI */
 
 /* SEZIONE FOOTER */
+footer {
+    margin-top: -48px;
+}
 .copyright-text {
     color: rgb(153, 153, 153);
     font-size: 8px; 
@@ -283,6 +290,13 @@ a {
 @media (max-width: 767px) {
     .card-blog {
         margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .networking-tab {
+        order: 2;
+        margin-top: 1.5rem;
     }
 }
 
